@@ -36,7 +36,7 @@ const YourMoney = () => {
             </div>
             <div
               style={{ backgroundColor: "#2c2c2c" }}
-              className="col-6 px-0 d-flex justify-content-center align-items-center"
+              className="col-6 px-0 d-flex justify-content-align-items-centercenter "
             >
               <div className="bg-transparent d-flex justify-content-end text-white align-items-center col-10 ">
                 {el.amt}

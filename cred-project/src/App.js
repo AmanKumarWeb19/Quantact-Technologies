@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import "../src/App.css";
 import YourMoney from "./components/YourMoney";
 import ExploreCard from "./components/ExploreCard";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
     >
       <Header />
       <YourMoney />
-      <ExploreCard/>
+      <ExploreCard />
+      <Footer />
     </div>
   );
 }
