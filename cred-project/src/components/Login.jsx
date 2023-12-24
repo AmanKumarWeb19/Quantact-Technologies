@@ -1,6 +1,6 @@
 import React from "react";
 import "./Login.css";
-
+import { IoIosArrowRoundForward } from "react-icons/io";
 const Login = () => {
   return (
     <div className="login-container">
@@ -16,7 +16,7 @@ const Login = () => {
         </div>
         <div className="checkbox">
           <input className="inputcheckbox" type="checkbox" />
-          <span style={{ backgroundColor: "white",fontSize:"12px" }}>
+          <span style={{ backgroundColor: "white", fontSize: "12px" }}>
             allow CRED to access your information from{" "}
             <span style={{ fontWeight: "bold", backgroundColor: "white" }}>
               RBI approved bureaus
@@ -24,7 +24,12 @@ const Login = () => {
             this doses not impact your credit score
           </span>
         </div>
+        <div className="agree_continue">
+        <button className="agree-btn">Agree and continue <IoIosArrowRoundForward style={{backgroundColor:"grey"}} /></button>
       </div>
+      </div>
+      {/* 3div */}
+     
     </div>
   );
 };
