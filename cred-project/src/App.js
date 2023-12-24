@@ -6,6 +6,7 @@ import YourMoney from "./components/YourMoney";
 import ExploreCard from "./components/ExploreCard";
 import Footer from "./components/Footer";
 import SplashScreen from "./components/SplashScreen";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         <ExploreCard />
         <Footer />
       </div> */}
-      <SplashScreen />
+      {/* <SplashScreen /> */}
+      <Login />
     </div>
   );
 }
