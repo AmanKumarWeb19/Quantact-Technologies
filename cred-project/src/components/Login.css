@@ -23,6 +23,37 @@
   width: 70%;
   color: white;
   font-size: 32px;
-  margin: 10px 30px 0px 25px;
-  
+  margin: 20px 30px 0px 25px;
+}
+.mobileinput-container {
+  height: 50%;
+  border: 5px solid yellow;
+  background-color: white;
+  padding: 40px 0 0 0;
+}
+.input-container {
+  width: 80%;
+  /* border: 1px solid red; */
+  margin: auto;
+  height: 15%;
+}
+.input-tel {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  text-align: center;
+}
+.checkbox {
+  /* border: 5px solid blue; */
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.inputcheckbox {
+  /* width: 100%; */
+  background-color: white;
 }
