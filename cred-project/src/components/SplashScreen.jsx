@@ -3,12 +3,15 @@ import CredLogo from "../assets/credLogo.png";
 import splash_Img from "../assets/splash-image.jpg";
 import "./Splashscreen.css";
 import cn from "classnames";
+import { Link } from "react-router-dom";
 const SplashScreen = () => {
   return (
     <div className={cn("p-3 mainScreen")}>
       {/* 1div */}
       <div className="logo">
-        <img className="logo-image" src={CredLogo} alt="logo" />
+        <Link to="/login">
+          <img className="logo-image" src={CredLogo} alt="logo" />
+        </Link>
       </div>
       {/* 2div */}
       <div className="image-container">

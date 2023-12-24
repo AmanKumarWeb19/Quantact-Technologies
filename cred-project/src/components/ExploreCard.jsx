@@ -7,8 +7,10 @@ import shopping from "../assets/shopping.svg";
 import rentViaCard from "../assets/rentViaCard.svg";
 import reward from "../assets/reward.svg";
 import styles from "./ExploreCard.module.css";
+import { useNavigate } from "react-router-dom";
 
 const ExploreCard = () => {
+  const navigate = useNavigate();
   const ExploreData = [
     {
       id: 1,
@@ -46,6 +48,13 @@ const ExploreCard = () => {
       text: "view all",
     },
   ];
+  const handleNaviagte = (id) => {
+    if (id === 4) {
+      navigate("/shopping");
+    } else if (id === 3) {
+      navigate("/reward");
+    }
+  };
   return (
     <div className="col-12 pt-5">
       <div
@@ -56,7 +65,11 @@ const ExploreCard = () => {
       </div>
       <div className={styles.xploremaincontainer}>
         {ExploreData?.map((el) => (
-          <div key={el.icon} className={styles.exploreContainer}>
+          <div
+            onClick={() => handleNaviagte(el.id)}
+            key={el.icon}
+            className={styles.exploreContainer}
+          >
             <img className="" src={el.icon} alt="icon" />
             <p className={styles.explore_text}>{el.text}</p>
           </div>

@@ -1,27 +1,27 @@
-// import logo from "./logo.svg";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Header from "./components/Header";
-import "../src/App.css";
-import YourMoney from "./components/YourMoney";
-import ExploreCard from "./components/ExploreCard";
-import Footer from "./components/Footer";
-import SplashScreen from "./components/SplashScreen";
+import Splash from "./components/SplashScreen";
 import Login from "./components/Login";
-
+import LandingPage from "./container/LandingPage";
+import Shopping from "./components/Shopping";
+import Spinner from "./components/Spinner";
 function App() {
   return (
     <div className="h-100" style={{ height: "100%" }}>
-      {/* <div
+      <div
         style={{ backgroundColor: "#242424" }}
         className="row mx-0 position-relative h-100"
       >
-        <Header />
-        <YourMoney />
-        <ExploreCard />
-        <Footer />
-      </div> */}
-      {/* <SplashScreen /> */}
-      <Login />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" exact element={<Splash />} />
+            <Route path="/login" exact element={<Login />} />
+            <Route path="/landing" element={<LandingPage />} />
+            <Route path="/shopping" exact element={<Shopping />} />
+            <Route path="reward" element={<Spinner />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,28 @@
+.shopping-container {
+  border: 2px solid red;
+  background-color: white;
+}
+.shop-arrow {
+  margin-top: 50px;
+  padding: 10px;
+  border: 2px solid red;
+  /* background-color: white; */
+  /* color: white; */
+  background: transparent;
+}
+.textshop {
+  border: 2px solid blue;
+  background-color: white;
+  font-weight: bold;
+  font-size: 12px;
+  color: grey;
+  text-transform: uppercase;
+  line-height: 2;
+  margin-top: 20px;
+}
+.item-image-container {
+  border: 10 px solid red;
+}
+.item-image {
+  border: 2px solid red;
+}
