@@ -1,12 +1,14 @@
 .mainScreen {
   /* border: 2px solid red; */
   height: 100%;
+  background-color: black;
 }
 .logo {
   /* border: 1px solid red; */
   display: flex;
   justify-content: right;
   height: 5%;
+  background: transparent;
 }
 .logo-image {
   background-color: transparent;
@@ -16,7 +18,7 @@
 .image-container {
   margin-top: 80px;
   /* border: 1px solid red; */
-  height: 42%;
+  height: 40%;
   width: 100%;
 }
 
@@ -27,6 +29,7 @@
   /* border: 1px solid red; */
   margin-top: 50px;
   height: 25%;
+  background: transparent;
 }
 .text {
   /* border: 1px solid red; */
@@ -34,10 +37,14 @@
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 25px;
+  background: transparent;
+
 }
 .sectext {
   /* border: 1px solid red; */
   color: white;
   font-size: 28px;
   margin-top: 10px;
+  background: transparent;
+
 }
