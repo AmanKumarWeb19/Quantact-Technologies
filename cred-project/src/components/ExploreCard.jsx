@@ -7,6 +7,7 @@ import shopping from "../assets/shopping.svg";
 import rentViaCard from "../assets/rentViaCard.svg";
 import reward from "../assets/reward.svg";
 import styles from "./ExploreCard.module.css";
+
 const ExploreCard = () => {
   const ExploreData = [
     {

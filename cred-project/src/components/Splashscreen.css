@@ -1,0 +1,43 @@
+.mainScreen {
+  /* border: 2px solid red; */
+  height: 100%;
+}
+.logo {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: right;
+  height: 5%;
+}
+.logo-image {
+  background-color: transparent;
+  height: 100%;
+  color: rgb(241, 84, 84);
+}
+.image-container {
+  margin-top: 80px;
+  /* border: 1px solid red; */
+  height: 42%;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+}
+.text-container {
+  /* border: 1px solid red; */
+  margin-top: 50px;
+  height: 25%;
+}
+.text {
+  /* border: 1px solid red; */
+  color: rgb(135, 132, 132);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.sectext {
+  /* border: 1px solid red; */
+  color: white;
+  font-size: 28px;
+  margin-top: 10px;
+}
