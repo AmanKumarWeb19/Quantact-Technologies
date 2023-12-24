@@ -48,7 +48,7 @@ const ExploreCard = () => {
   return (
     <div className="col-12 pt-5">
       <div
-        style={{ fontSize: "6px", color: "lightgray" }}
+        style={{ fontSize: "8px", color: "lightgray" }}
         className="col-12 px-0 text-left fw-bold"
       >
         EXPLORE CRED

@@ -11,7 +11,7 @@ const YourMoney = () => {
   return (
     <div style={{ marginTop: "8vh" }} className={cn("px-3 d-flex flex-column")}>
       <div
-        style={{ fontSize: "6px", color: "lightgray" }}
+        style={{ fontSize: "8px", color: "lightgray" }}
         className="col-12 px-0 text-left fw-bold"
       >
         YOUR MONEY

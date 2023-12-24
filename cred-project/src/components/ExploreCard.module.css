@@ -4,24 +4,23 @@
 }
 .xploremaincontainer {
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin: auto;
   margin-top: 20px;
+  border-bottom: 2px solid rgb(42, 41, 41);
 }
 .exploreContainer {
   margin-left: 15px;
   margin-bottom: 20px;
   width: 100px;
-  padding: 5px;
-  border: 1px solid red;
+  padding: 15px;
   border-radius: 80%;
   background-color: #2f2f2f;
 }
 .explore_img {
-  background: transparent;
+  filter: invert(100%);
 }
